@@ -1,0 +1,190 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+m:wght@300&family=Rufina&display=swap');
+/* Geral */
+:root{
+    --cor01: #920202;
+    --cor02: #413244;
+    --cor03: #4C4D71;
+    --cor04: #F2EDDB;
+    --cor05: #014034;
+    --fonte-titulo: 'Antonio Sans', sans-serif;
+    --fonte-subTitulo: 'Open Sans m', sans-serif;
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
+}
+
+body{
+    background: url(../imagens/background.png) center center no-repeat fixed;
+    background-size: cover;
+    font-family: var(--fonte-padrao);  
+}
+
+h1{ 
+    color: white;
+    font-family: var(--fonte-titulo);
+    text-shadow: var(--sombra);
+    margin: auto;
+    text-align: center;
+    display: inline;
+    text-decoration: underline;
+}
+
+h2{
+    color: var(--cor05);
+    font-family: var(--fonte-subTitulo);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: 400;
+    font-size: 16px; 
+}
+
+nav > button{
+    height: 35px;
+    width: 100px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+nav a{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 25px;
+}
+
+.rpmenu{
+    display: none;
+    
+}
+
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.menu{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+main img.tituloMain{
+    display: block;
+    margin: auto;
+
+}
+
+.titulo {
+    margin: auto;
+    text-align: center;
+}
+
+
+.pinguim {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 150px; 
+    height: auto; 
+    z-index: 9999; 
+}
+
+.voltar{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;   
+}
+
+.downloads{
+    color: var(--cor01);
+    margin-left: 50px;
+}
+/* Geral */
+
+/* INDEX */
+.projetos {
+    margin: auto;
+    display: inline-block;
+    margin: 10px;
+    background-color: lightgray;
+    border: 2px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    color: black;
+    transition-duration: .5s;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+}
+
+.projetos:hover,
+.projetos>a {
+    background-color: var(--cor01);
+    color: var(--cor04);
+    border: 2px solid var(--cor04);
+}
+
+.espacamento {
+    margin-top: 100px;
+    margin-right: 100px;
+}
+/* INDEX */
+
+
+/* Exp Profissional */
+.subPaginas{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(13, 13, 13, 0.616);
+    width: 70%;
+    padding: 100px;
+    margin: auto;
+    display: block;
+    margin: none;
+}
+
+.prof1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .descricao {
+    display: block;
+  }
+
+  .imgExp {
+    margin: 0 40px
+  }
+
+  .subPaginas > p{
+    margin: 0px;
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+/* Exp Profissional */
+
+/* Eventos */
+
+/* Eventos */
+
+/* Currículo */
+.downloadCurriculo{
+    color: var(--cor01);
+}

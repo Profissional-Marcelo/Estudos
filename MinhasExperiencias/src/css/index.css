@@ -1,0 +1,166 @@
+@charset "UTF-8";
+
+:root {
+ --bgColor: #413243;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: var(--bgColor) url(../img/background.png) center center no-repeat fixed;
+    background-size: cover;
+}
+
+body > section.penguin > a > img{
+    width: 100px;
+
+   }
+   
+   body > section.penguin{
+    display: flex;
+    position: fixed;
+    top: 500px;
+    left: 200px;
+}
+
+    
+
+body > section.penguin > a{
+    position: fixed;
+    top: 500px;
+    left: 200px;
+}
+
+body > section.penguin:hover > p{
+    display: flex;
+}
+
+    body > section.penguin > p{
+        display: none; 
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        right: 100px;
+    }
+
+ 
+
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+header > h1.nome {
+    font-size: 21px;
+    color: white;
+    text-decoration: underline;
+}
+
+header > nav > button {
+    border: none;
+    background-color: transparent;
+    margin-top: 6.5px;
+    margin-right: 6px;
+}
+
+header > nav > ul > button > img {
+    width: 20px;
+}
+
+header > nav > ul {
+    background-color: black;
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+
+header > nav > ul > li > a{
+ color: white;
+ text-decoration: none;
+ font-size: 20px;
+}
+
+header > nav > ul > li > a:hover{
+    color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    background-color: lightgray;
+   }
+
+
+
+
+main > section.lamp {
+   margin-top: 10px;
+   display: flex;
+}
+
+main > section > article {
+    display: none;
+}
+
+main > section > article > span {
+   display: flex;
+   flex-direction: row-reverse;
+}
+
+main > section > article > span > p {
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 18px;
+    color: white;
+    font-size: 20px;
+}
+
+main > section > button, main > section > article > span > button {
+    border: none;
+    background-color: transparent;
+}
+
+
+main > section > button > img.lamp{
+    margin: 15px 15px 30px 15px;
+}
+
+main > section > img.titulo {
+    display: block;
+    margin:  0px auto 20px auto;
+    width: 300px;
+}
+
+main > section > button.btnProjeto{
+    display: block;
+    margin: auto;
+}
+
+main > section > button.btnProjeto > ul {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+main > section > button.btnProjeto > ul > li{
+    border-top: white 4px solid;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 158px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+main > section > button.btnProjeto > ul > img.projetos {
+    border-left: white 4px solid;
+    border-right: white 4px solid;
+    border-top: white 4px solid;
+    background-color: black;
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+}
