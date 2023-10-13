@@ -7,6 +7,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    list-style-type: none;
 }
 
 body {
@@ -14,29 +15,35 @@ body {
     background-size: cover;
 }
 
+body .blur {
+  filter: blur(4px);
+}
+
+body .esconda{
+    display: none;
+}
+
+
 body > section.penguin > a > img{
-    width: 100px;
+    width: 70px;
 
    }
    
    body > section.penguin{
     display: flex;
     position: fixed;
-    top: 500px;
-    left: 200px;
+    
 }
 
     
 
 body > section.penguin > a{
     position: fixed;
-    top: 500px;
-    left: 200px;
+    top: 570px;
+    left: 250px;
 }
 
-body > section.penguin:hover > p{
-    display: flex;
-}
+
 
     body > section.penguin > p{
         display: none; 
@@ -45,9 +52,6 @@ body > section.penguin:hover > p{
         font-size: 20px;
         right: 100px;
     }
-
- 
-
 
 header {
     display: flex;
@@ -144,7 +148,7 @@ main > section > button.btnProjeto > ul {
     margin: auto;
 }
 
-main > section > button.btnProjeto > ul > li{
+main > section > button.btnProjeto > ul.menuProjetos > li{
     border-top: white 4px solid;
     text-align: center;
     color: white;
@@ -152,6 +156,66 @@ main > section > button.btnProjeto > ul > li{
     width: 158px;
     padding: 10px 0px;
     font-weight: bold;
+}
+
+main > section  > ul.menuProjeto {
+    display: none;
+    position: fixed;
+    top: 0px;
+    z-index: 4;
+    color: white;
+}
+
+main > section > ul > article.container {
+    border: white 1px solid;
+    display: flex;
+    width: 99vw;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+
+}
+
+main > section > ul > article.sectionIframe {
+    display: flex;
+    width: 100vw;
+    height: 53vh;
+}
+
+main > section > ul > article.sectionIframe > iframe {
+    display: flex;
+    width: 100vw;
+}
+
+main > section  > ul.menuProjeto > article > li > a{
+    color: white;
+    text-decoration: none;  
+    padding: 10px;
+}
+
+main > section > ul > li > button {
+    display: block;
+    background-color: black;
+    border-radius: 50px;
+    border: none;
+    box-shadow:  6px 6px 16px rgb(13, 13, 13, 0.616);
+    margin: 20px auto;
+}
+main > section  > ul.menuProjeto > article > li {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: white 1px solid;
+    background-image: linear-gradient(to bottom, #2FA765, #186C3D, #063D1E);
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow:  6px 6px 16px rgb(13, 13, 13, 0.616);
+}
+
+main > section > button.btnProjeto > ul {
+    margin-bottom: 60px;
 }
 
 main > section > button.btnProjeto > ul > img.projetos {
@@ -164,3 +228,4 @@ main > section > button.btnProjeto > ul > img.projetos {
     width: 150px;
     height: 150px;
 }
+

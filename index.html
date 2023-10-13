@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="src/css/index.css" media="all">
 </head>
 <body>
-    <header>
+    <header id="header">
         <nav class="dropdownMenu">
             
                 <button id="btnMenu"><img src="src/img/menu.png" alt="ícone de menu"></button>
@@ -18,7 +18,7 @@
         <h1 class="nome">Marcelo Henrique Cornelis Rei</h1>
     </header>
     <main>
-        <section class="lamp">
+        <section class="lamp" id="sectionLamp">
             <button id="btnLampOff"><img src="src/img/lampOff.png" alt="Lâmpada desligada" class="lamp"></button>
             <article id="ligarDesligar"><span>
                 <button id="btnLampOn"><img src="src/img/lampOn.png" alt="Lâmpada ligada" class="lamp"></button>
@@ -27,13 +27,63 @@
             </article>
         </section>
         <section>
-            <img src="src/img/titlePage.png" alt="título da página" class="titulo">
-            <button class="btnProjeto">
-                <ul><img src="src/img/projetoAndroid.png" alt="projeto android" class="projetos">
+            <img src="src/img/titlePage.png" alt="título da página" class="titulo" id="titulo">  
+             <button class="btnProjeto" id="btnProjetoAndroid">
+                <ul class="menuProjetos" id="androidCard">
+                    <img src="src/img/projetoAndroid.png" alt="projeto android" class="projetos">
                     <li>Projeto Android</li>
                 </ul>
-            </button>
-            
+             </button>
+             <ul class="menuProjeto" id="menuAndroid">
+                <article class="sectionIframe"><iframe src="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-android/index.html" frameborder="0"></iframe></article>
+                <article class="container">
+                    <li><a href="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-android/index.html" target="_blank">Ir para</a></li>
+                    <li>Baixar Script</li>
+                </article>
+                    <li><button id="btnVoltarAndroid"><img src="src/img/voltar.png" alt="botão voltar"></button></li>
+             </ul>  
+             <button class="btnProjeto" id="btnProjetoCordel">
+                <ul class="menuProjetos" id="cordelCard">
+                    <img src="src/img/projetoCordel.png" alt="projeto Cordel" class="projetos">
+                    <li>Projeto Cordel</li>
+                </ul>
+             </button>
+             <ul class="menuProjeto" id="menuCordel">
+                <article class="sectionIframe"><iframe src="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-cordel/index.html" frameborder="0"></iframe></article>
+                <article class="container">
+                    <li><a href="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-cordel/index.html" target="_blank">Ir para</a></li>
+                    <li>Baixar Script</li>
+                </article>
+                    <li><button id="btnVoltarCordel"><img src="src/img/voltar.png" alt="botão voltar"></button></li>
+             </ul> 
+             <button class="btnProjeto" id="btnProjetoPokedex">
+                <ul class="menuProjetos" id="pokedexCard">
+                    <img src="src/img/projetoPokedex.png" alt="projeto Pokedex" class="projetos">
+                    <li>Projeto Pokédex</li>
+                </ul>
+             </button>
+             <ul class="menuProjeto" id="menuPokedex">
+                <article class="sectionIframe"><iframe src="src/cursos/dev-em-dobro/projetos-replicados/Pokedex/index.html" frameborder="0"></iframe></article>
+                <article class="container">
+                    <li><a href="src/cursos/dev-em-dobro/projetos-replicados/Pokedex/index.html" target="_blank">Ir para</a></li>
+                    <li>Baixar Script</li>
+                </article>
+                    <li><button id="btnVoltarPokedex"><img src="src/img/voltar.png" alt="botão voltar"></button></li>
+             </ul> 
+             <button class="btnProjeto" id="btnProjetoPokedex">
+                <ul class="menuProjetos" id="pokedexCard">
+                    <img src="src/img/projetoPokedex.png" alt="projeto Pokedex" class="projetos">
+                    <li>Projeto Pokédex</li>
+                </ul>
+             </button>
+             <ul class="menuProjeto" id="menuPokedex">
+                <article class="sectionIframe"><iframe src="src/cursos/dev-em-dobro/projetos-replicados/Pokedex/index.html" frameborder="0"></iframe></article>
+                <article class="container">
+                    <li><a href="src/cursos/dev-em-dobro/projetos-replicados/Pokedex/index.html" target="_blank">Ir para</a></li>
+                    <li>Baixar Script</li>
+                </article>
+                    <li><button id="btnVoltarPokedex"><img src="src/img/voltar.png" alt="botão voltar"></button></li>
+             </ul> 
         </section>
     </main>
     <footer>
