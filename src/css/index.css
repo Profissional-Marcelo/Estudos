@@ -39,19 +39,19 @@ body > section.penguin > a > img{
 
 body > section.penguin > a{
     position: fixed;
-    top: 580px;
-    left: 260px;
+    top: 88vh;
+    left: 80vw;
 }
 
 
 
-    body > section.penguin > p{
+body > section.penguin > p{
         display: none; 
         position: absolute;
         color: white;
         font-size: 20px;
         right: 100px;
-    }
+}
 
 header {
     display: flex;

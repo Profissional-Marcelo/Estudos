@@ -1,3 +1,156 @@
+@charset "UTF-8";
+
+
 body > section.penguin:hover > p{
     display: flex;
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 414px){ 
+
+     body > section.penguin > a{
+        left: 84vw;
+     }
+
+     header > h1.nome {
+        font-size: 25px;
+    }
+
+     main > section > article > span > p {
+        font-size: 25px;
+        margin-bottom: 3px;
+    }
+
+    main > section > button.btnProjeto > ul.menuProjetos > li{
+        font-size: 14px;
+    }
+
+    main > section > img.titulo {
+        margin:  10px auto 20px auto;
+    }
+}
+
+@media screen and (min-width: 412px) and (max-width: 700px){ 
+
+    body > section.penguin > a{
+        top: 91vh;
+        left: 85vw;
+    }
+
+    header > h1.nome {
+       font-size: 25px;
+   }
+
+    main > section > article > span > p {
+       font-size: 25px;
+       margin-bottom: 3px;
+   }
+
+   main > section > button.btnProjeto > ul.menuProjetos > li{
+       font-size: 14px;
+   }
+
+   main > section > img.titulo {
+       margin:  10px auto 20px auto;
+   }
+}
+
+@media screen and (min-width: 700px) and (max-width: 906px){ 
+
+    body > section.penguin > a, body > section.penguin > a > img{
+        width: 100px;
+        top: 89vh;
+        left: 88vw;
+    }
+
+    header > h1.nome {
+        margin-left: 20vw;
+       font-size: 30px;
+   }
+
+   main > section > article > span > p {
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
+   main > section > button.btnProjeto > ul.menuProjetos > li{
+       font-size: 14px;
+   }
+
+   main > section > img.titulo {
+    width: 350px;
+    margin:  20px auto 30px auto;
+}
+
+   main > section > button.btnProjeto{
+    display: inline-block;
+    margin: 10px auto 80px 150px;
+}
+
+main > section > button.btnProjeto > ul > img.projetos {
+    width: 200px;
+    height: 200px;
+}
+
+main > section > button.btnProjeto > ul.menuProjetos > li{
+    font-size: 19px;
+    width: 208px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+header > nav > ul > li > a{
+    font-size: 30px;
+   }
+
+}
+
+@media screen and (min-width: 907px) and (max-width: 1500px){ 
+    body > section.penguin > a, body > section.penguin > a > img{
+        width: 100px;
+        top: 89vh;
+        left: 88vw;
+    }
+
+    header > h1.nome {
+        margin-left: 20vw;
+       font-size: 30px;
+   }
+
+   main > section > article > span > p {
+    font-size: 35px;
+    margin-bottom: 7px;
+}
+
+   main > section > button.btnProjeto > ul.menuProjetos > li{
+       font-size: 14px;
+   }
+
+   main > section > img.titulo {
+    width: 350px;
+    margin:  20px auto 30px auto;
+}
+
+   main > section > button.btnProjeto{
+    display: inline-block;
+    margin: 10px auto 80px 200px;
+}
+
+main > section > button.btnProjeto > ul > img.projetos {
+    width: 200px;
+    height: 200px;
+}
+
+main > section > button.btnProjeto > ul.menuProjetos > li{
+    font-size: 19px;
+    width: 208px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+header > nav > ul > li > a{
+    font-size: 30px;
+   }
+
+
 }
