@@ -24,6 +24,7 @@ $("#btnProjetoAndroid").click(()=>{
     $("#btnProjetoAndroid").toggleClass("blur");
     $("#btnProjetoCordel").toggleClass("blur");
     $("#btnProjetoPokedex").toggleClass("blur");
+    $("#btnProjetoRedes-sociais").toggleClass("blur");
     $("#menuAndroid").toggle();
 });
 
@@ -36,6 +37,7 @@ $("#btnVoltarAndroid").click(()=>{
     $("#btnProjetoAndroid").removeClass("blur");
     $("#btnProjetoCordel").removeClass("blur");
     $("#btnProjetoPokedex").removeClass("blur");
+    $("#btnProjetoRedes-sociais").removeClass("blur");
 })
 
 
@@ -47,6 +49,7 @@ $("#btnProjetoCordel").click(()=>{
     $("#btnProjetoAndroid").toggleClass("blur");
     $("#btnProjetoCordel").toggleClass("blur");
     $("#btnProjetoPokedex").toggleClass("blur");
+    $("#btnProjetoRedes-sociais").toggleClass("blur");
     $("#menuCordel").toggle();
 });
 
@@ -59,6 +62,7 @@ $("#btnVoltarCordel").click(()=>{
     $("#btnProjetoAndroid").removeClass("blur");
     $("#btnProjetoCordel").removeClass("blur");
     $("#btnProjetoPokedex").removeClass("blur");
+    $("#btnProjetoRedes-sociais").removeClass("blur");
 });
 
 //Abrir projeto Pokedex
@@ -69,6 +73,7 @@ $("#btnProjetoPokedex").click(()=>{
     $("#btnProjetoAndroid").toggleClass("blur");
     $("#btnProjetoCordel").toggleClass("blur");
     $("#btnProjetoPokedex").toggleClass("blur");
+    $("#btnProjetoRedes-sociais").toggleClass("blur");
     $("#menuPokedex").toggle();
 })
 
@@ -81,4 +86,29 @@ $("#btnVoltarPokedex").click(()=>{
     $("#btnProjetoAndroid").removeClass("blur");
     $("#btnProjetoCordel").removeClass("blur");
     $("#btnProjetoPokedex").removeClass("blur");
+    $("#btnProjetoRedes-sociais").removeClass("blur");
+});
+
+//Abrir projeto redes-sociais
+$("#btnProjetoRedes-sociais").click(()=>{
+    $("#header").toggleClass("blur");
+    $("#btnLampOff").toggleClass("blur");
+    $("#titulo").toggleClass("blur");
+    $("#btnProjetoAndroid").toggleClass("blur");
+    $("#btnProjetoCordel").toggleClass("blur");
+    $("#btnProjetoPokedex").toggleClass("blur");
+    $("#btnProjetoRedes-sociais").toggleClass("blur");
+    $("#menuRedes-sociais").toggle();
+})
+
+//Fechar projeto redes-sociais
+$("#btnVoltarRedesSociais").click(()=>{
+    $("#menuRedes-sociais").hide();
+    $("#header").removeClass("blur");
+    $("#btnLampOff").removeClass("blur");
+    $("#titulo").removeClass("blur");
+    $("#btnProjetoAndroid").removeClass("blur");
+    $("#btnProjetoCordel").removeClass("blur");
+    $("#btnProjetoPokedex").removeClass("blur");
+    $("#btnProjetoRedes-sociais").removeClass("blur");
 });
