@@ -1,19 +1,15 @@
 @charset "UTF-8";
 
 
-body > section.penguin:hover > p{
-    display: flex;
-}
-
-
-@media screen and (min-width: 375px) and (max-width: 414px){ 
+@media screen and (min-width: 375px) and (max-width: 411px){ 
 
      body > section.penguin > a{
-        left: 84vw;
+        top: 80%;
+        left: 80%;
      }
 
      header > h1.nome {
-        font-size: 25px;
+        font-size: 20px;
     }
 
      main > section > article > span > p {
@@ -30,11 +26,17 @@ body > section.penguin:hover > p{
     }
 }
 
-@media screen and (min-width: 412px) and (max-width: 700px){ 
 
-    body > section.penguin > a{
-        top: 91vh;
-        left: 85vw;
+
+@media screen and (min-width: 412px) and (max-width: 699px){ 
+
+    body > section.penguin{
+        top: 86%;
+        left: 80%;
+    }
+
+    body > section.penguin > a > img{
+     width: 100px;
     }
 
     header > h1.nome {
@@ -57,15 +59,23 @@ body > section.penguin:hover > p{
 
 @media screen and (min-width: 700px) and (max-width: 906px){ 
 
-    body > section.penguin > a, body > section.penguin > a > img{
-        width: 100px;
-        top: 89vh;
-        left: 88vw;
+    body > section.penguin{
+        top: 85%;
+        left: 88%;
+    }
+
+    body > section.penguin > a > img{
+     width: 100px;
+    }
+
+    header > nav > button > img {
+        margin-top: 3px;
+        width: 40px;
     }
 
     header > h1.nome {
-        margin-left: 20vw;
-       font-size: 30px;
+        margin: auto;
+        font-size: 40px;
    }
 
    main > section > article > span > p {
@@ -77,24 +87,32 @@ body > section.penguin:hover > p{
        font-size: 14px;
    }
 
+   main > section.dividir-em-dois{
+    display: block;
+    text-align: center;
+   }
+
    main > section > img.titulo {
-    width: 350px;
+    width: 400px;
     margin:  20px auto 30px auto;
 }
 
    main > section > button.btnProjeto{
     display: inline-block;
-    margin: 10px auto 80px 150px;
+    padding: 0px 258px 303px 0px;
+    width: 100px;
+    height: 200px;
+    margin: 20px;
 }
 
 main > section > button.btnProjeto > ul > img.projetos {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 main > section > button.btnProjeto > ul.menuProjetos > li{
-    font-size: 19px;
-    width: 208px;
+    font-size: 22px;
+    width: 257px;
     padding: 10px 0px;
     font-weight: bold;
 }
@@ -105,16 +123,96 @@ header > nav > ul > li > a{
 
 }
 
-@media screen and (min-width: 907px) and (max-width: 1500px){ 
-    body > section.penguin > a, body > section.penguin > a > img{
-        width: 100px;
-        top: 89vh;
-        left: 88vw;
+
+@media screen and (min-width: 907px) and (max-width: 1057px){ 
+    body > section.penguin{
+        top: 86%;
+        left: 91%;
+    }
+
+    body > section.penguin > a > img{
+     width: 100px;
+    }
+
+    header > nav > button > img {
+        margin-top: 3px;
+        width: 40px;
     }
 
     header > h1.nome {
-        margin-left: 20vw;
-       font-size: 30px;
+        margin: auto;
+        font-size: 40px;
+   }
+
+   main > section > article > span > p {
+    font-size: 30px;
+    margin-bottom: 19px;
+}
+
+
+   main > section > button.btnProjeto > ul.menuProjetos > li{
+       font-size: 14px;
+   }
+
+   main > section.dividir-em-dois{
+    display: block;
+    text-align: center;
+   }
+
+   main > section > img.titulo {
+    width: 400px;
+    margin:  20px auto 30px auto;
+}
+
+   main > section > button.btnProjeto{
+    display: inline-block;
+    padding: 0px 258px 303px 0px;
+    width: 100px;
+    height: 200px;
+    margin: 20px;
+}
+
+main > section > button.btnProjeto > ul > img.projetos {
+    width: 250px;
+    height: 250px;
+}
+
+main > section > button.btnProjeto > ul.menuProjetos > li{
+    font-size: 22px;
+    width: 257px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+header > nav > ul > li > a{
+    font-size: 30px;
+   }
+
+}
+
+@media screen and (min-width: 1058px) and (max-width: 1500px){ 
+
+    body > section.penguin:hover > p{
+        display: inline-block;
+    }
+
+    body > section.penguin{
+        top: 86%;
+        left: 92%;
+    }
+
+    body > section.penguin > a > img{
+     width: 100px;
+    }
+
+    header > nav > button > img {
+        margin-top: 3px;
+        width: 40px;
+    }
+
+    header > h1.nome {
+        margin: auto;
+        font-size: 40px;
    }
 
    main > section > article > span > p {
@@ -126,24 +224,32 @@ header > nav > ul > li > a{
        font-size: 14px;
    }
 
+   main > section.dividir-em-dois{
+    display: block;
+    text-align: center;
+   }
+
    main > section > img.titulo {
-    width: 350px;
+    width: 400px;
     margin:  20px auto 30px auto;
 }
 
    main > section > button.btnProjeto{
     display: inline-block;
-    margin: 10px auto 80px 200px;
+    padding: 0px 258px 303px 0px;
+    width: 100px;
+    height: 200px;
+    margin: 20px;
 }
 
 main > section > button.btnProjeto > ul > img.projetos {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
 }
 
 main > section > button.btnProjeto > ul.menuProjetos > li{
-    font-size: 19px;
-    width: 208px;
+    font-size: 22px;
+    width: 257px;
     padding: 10px 0px;
     font-weight: bold;
 }
@@ -152,5 +258,89 @@ header > nav > ul > li > a{
     font-size: 30px;
    }
 
+} 
 
+@media screen and (min-width: 1501px) {
+    body > section.penguin:hover > p{
+        display: inline-block;
+    }
+
+    body > section.penguin{
+        top: 86%;
+        left: 92%;
+    }
+
+    body > section.penguin > a > img{
+     width: 100px;
+    }
+
+    
+
+    header > nav > ul > li > a:hover{
+        text-decoration: underline;
+        background-color: white;
+        color: black;
+    }
+
+    header > nav > button > img {
+        margin-top: 3px;
+        width: 40px;
+    }
+
+    header > h1.nome {
+        margin: auto;
+        font-size: 40px;
+   }
+
+   main > section > article > span > p {
+    font-size: 50px;
+    margin-left: 50px;
+    margin-bottom: 29px;
 }
+
+main > section > article > span {
+    display: flex;
+   text-align: center;
+    flex-direction: row;
+    
+ }
+
+   main > section > button.btnProjeto > ul.menuProjetos > li{
+       font-size: 14px;
+   }
+
+   main > section.dividir-em-dois{
+    display: block;
+    text-align: center;
+   }
+
+   main > section > img.titulo {
+    width: 400px;
+    margin:  auto;
+}
+
+   main > section > button.btnProjeto{
+    display: inline-block;
+    padding: 0px 258px 303px 0px;
+    width: 100px;
+    height: 200px;
+    margin: 15px;
+}
+
+main > section > button.btnProjeto > ul > img.projetos {
+    width: 250px;
+    height: 250px;
+}
+
+main > section > button.btnProjeto > ul.menuProjetos > li{
+    font-size: 22px;
+    width: 257px;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+header > nav > ul > li > a{
+    font-size: 30px;
+   }
+
+} 
