@@ -11,8 +11,8 @@
 }
 
 html, body {
-    width: 99vw;
-    height: 99vh;
+    width: 98vw;
+    height: 98vh;
     margin: 0;
     padding: 0;
 }
@@ -88,21 +88,21 @@ header > nav > ul > li > a{
 
 
 
-main > section.lamp {
+ section.lamp {
    margin-top: 10px;
    display: flex;
 }
 
-main > section > article {
+ section > article {
     display: none;
 }
 
-main > section > article > span {
+ section > article > span {
    display: flex;
    flex-direction: row-reverse; 
 }
 
-main > section > article > span > p {
+ section > article > span > p {
     margin-left: 10px;
     margin-top: 25px;
     margin-bottom: 18px;
@@ -110,34 +110,34 @@ main > section > article > span > p {
     font-size: 20px;
 }
 
-main > section > button, main > section > article > span > button {
+ section > button, section > article > span > button {
     border: none;
     background-color: transparent;
 }
 
 
-main > section > button > img.lamp{
+ section > button > img.lamp{
     margin: 15px 15px 30px 15px;
 }
 
-main > section > img.titulo {
+ section > img.titulo {
     display: block;
     margin:  0px auto 20px auto;
     width: 300px;
 }
 
-main > section > button.btnProjeto{
+ section > button.btnProjeto{
     display: block;
     margin: auto;
 }
 
-main > section > button.btnProjeto > ul {
+ section > button.btnProjeto > ul {
     width: 150px;
     height: 150px;
     margin: auto;
 }
 
-main > section > button.btnProjeto > ul.menuProjetos > li{
+ section > button.btnProjeto > ul.menuProjetos > li{
     border-top: white 4px solid;
     text-align: center;
     color: white;
@@ -147,7 +147,7 @@ main > section > button.btnProjeto > ul.menuProjetos > li{
     font-weight: bold;
 }
 
-main > section  > ul.menuProjeto {
+ section  > ul.menuProjeto {
     display: none;
     position: fixed;
     top: 0px;
@@ -155,7 +155,7 @@ main > section  > ul.menuProjeto {
     color: white;
 }
 
-main > section > ul > article.container {
+ section > ul > article.container {
     border: white 1px solid;
     display: flex;
     width: 99vw;
@@ -166,24 +166,24 @@ main > section > ul > article.container {
 
 }
 
-main > section > ul > article.sectionIframe {
+ section > ul > article.sectionIframe {
     display: flex;
     width: 100vw;
     height: 53vh;
 }
 
-main > section > ul > article.sectionIframe > iframe {
+ section > ul > article.sectionIframe > iframe {
     display: flex;
     width: 100vw;
 }
 
-main > section  > ul.menuProjeto > article > li > a{
+ section  > ul.menuProjeto > article > li > a{
     color: white;
     text-decoration: none;  
     padding: 10px;
 }
 
-main > section > ul > li > button {
+ section > ul > li > button {
     display: block;
     background-color: black;
     border-radius: 50px;
@@ -191,7 +191,7 @@ main > section > ul > li > button {
     box-shadow:  6px 6px 16px rgb(13, 13, 13, 0.616);
     margin: 20px auto;
 }
-main > section  > ul.menuProjeto > article > li {
+ section  > ul.menuProjeto > article > li {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     border: white 1px solid;
@@ -203,11 +203,11 @@ main > section  > ul.menuProjeto > article > li {
     box-shadow:  6px 6px 16px rgb(13, 13, 13, 0.616);
 }
 
-main > section > button.btnProjeto > ul {
+ section > button.btnProjeto > ul {
     margin-bottom: 60px;
 }
 
-main > section > button.btnProjeto > ul > img.projetos {
+ section > button.btnProjeto > ul > img.projetos {
     border-left: white 4px solid;
     border-right: white 4px solid;
     border-top: white 4px solid;

@@ -12,16 +12,16 @@
         font-size: 20px;
     }
 
-     main > section > article > span > p {
+     section > article > span > p {
         font-size: 25px;
         margin-bottom: 3px;
     }
 
-    main > section > button.btnProjeto > ul.menuProjetos > li{
+     section > button.btnProjeto > ul.menuProjetos > li{
         font-size: 14px;
     }
 
-    main > section > img.titulo {
+     section > img.titulo {
         margin:  10px auto 20px auto;
     }
 }
@@ -43,16 +43,16 @@
        font-size: 25px;
    }
 
-    main > section > article > span > p {
+     section > article > span > p {
        font-size: 25px;
        margin-bottom: 3px;
    }
 
-   main > section > button.btnProjeto > ul.menuProjetos > li{
+    section > button.btnProjeto > ul.menuProjetos > li{
        font-size: 14px;
    }
 
-   main > section > img.titulo {
+    section > img.titulo {
        margin:  10px auto 20px auto;
    }
 }
@@ -78,26 +78,26 @@
         font-size: 40px;
    }
 
-   main > section > article > span > p {
+    section > article > span > p {
     font-size: 35px;
     margin-bottom: 7px;
 }
 
-   main > section > button.btnProjeto > ul.menuProjetos > li{
+    section > button.btnProjeto > ul.menuProjetos > li{
        font-size: 14px;
    }
 
-   main > section.dividir-em-dois{
+    section.dividir-em-dois{
     display: block;
     text-align: center;
    }
 
-   main > section > img.titulo {
+    section > img.titulo {
     width: 400px;
     margin:  20px auto 30px auto;
 }
 
-   main > section > button.btnProjeto{
+    section > button.btnProjeto{
     display: inline-block;
     padding: 0px 258px 303px 0px;
     width: 100px;
@@ -105,12 +105,12 @@
     margin: 20px;
 }
 
-main > section > button.btnProjeto > ul > img.projetos {
+section > button.btnProjeto > ul > img.projetos {
     width: 250px;
     height: 250px;
 }
 
-main > section > button.btnProjeto > ul.menuProjetos > li{
+ section > button.btnProjeto > ul.menuProjetos > li{
     font-size: 22px;
     width: 257px;
     padding: 10px 0px;
@@ -144,27 +144,27 @@ header > nav > ul > li > a{
         font-size: 40px;
    }
 
-   main > section > article > span > p {
+ section > article > span > p {
     font-size: 30px;
     margin-bottom: 19px;
 }
 
 
-   main > section > button.btnProjeto > ul.menuProjetos > li{
+ section > button.btnProjeto > ul.menuProjetos > li{
        font-size: 14px;
    }
 
-   main > section.dividir-em-dois{
+ section.dividir-em-dois{
     display: block;
     text-align: center;
    }
 
-   main > section > img.titulo {
+ section > img.titulo {
     width: 400px;
     margin:  20px auto 30px auto;
 }
 
-   main > section > button.btnProjeto{
+ section > button.btnProjeto{
     display: inline-block;
     padding: 0px 258px 303px 0px;
     width: 100px;
@@ -172,12 +172,12 @@ header > nav > ul > li > a{
     margin: 20px;
 }
 
-main > section > button.btnProjeto > ul > img.projetos {
+ section > button.btnProjeto > ul > img.projetos {
     width: 250px;
     height: 250px;
 }
 
-main > section > button.btnProjeto > ul.menuProjetos > li{
+ section > button.btnProjeto > ul.menuProjetos > li{
     font-size: 22px;
     width: 257px;
     padding: 10px 0px;
@@ -215,26 +215,26 @@ header > nav > ul > li > a{
         font-size: 40px;
    }
 
-   main > section > article > span > p {
+ section > article > span > p {
     font-size: 35px;
     margin-bottom: 7px;
 }
 
-   main > section > button.btnProjeto > ul.menuProjetos > li{
+ section > button.btnProjeto > ul.menuProjetos > li{
        font-size: 14px;
    }
 
-   main > section.dividir-em-dois{
+ section.dividir-em-dois{
     display: block;
     text-align: center;
    }
 
-   main > section > img.titulo {
+section > img.titulo {
     width: 400px;
     margin:  20px auto 30px auto;
 }
 
-   main > section > button.btnProjeto{
+ section > button.btnProjeto{
     display: inline-block;
     padding: 0px 258px 303px 0px;
     width: 100px;
@@ -242,12 +242,12 @@ header > nav > ul > li > a{
     margin: 20px;
 }
 
-main > section > button.btnProjeto > ul > img.projetos {
+ section > button.btnProjeto > ul > img.projetos {
     width: 250px;
     height: 250px;
 }
 
-main > section > button.btnProjeto > ul.menuProjetos > li{
+ section > button.btnProjeto > ul.menuProjetos > li{
     font-size: 22px;
     width: 257px;
     padding: 10px 0px;
@@ -292,34 +292,34 @@ header > nav > ul > li > a{
         font-size: 40px;
    }
 
-   main > section > article > span > p {
-    font-size: 50px;
+ section > article > span > p {
+    font-size: 40px;
     margin-left: 50px;
-    margin-bottom: 29px;
+    margin-bottom: 40px;
 }
 
-main > section > article > span {
+ section > article > span {
     display: flex;
    text-align: center;
     flex-direction: row;
     
  }
 
-   main > section > button.btnProjeto > ul.menuProjetos > li{
-       font-size: 14px;
+ section > button.btnProjeto > ul.menuProjetos > li{
+      font-size: 14px;
    }
 
-   main > section.dividir-em-dois{
+ section.dividir-em-dois{
     display: block;
     text-align: center;
    }
 
-   main > section > img.titulo {
+ section > img.titulo {
     width: 400px;
     margin:  auto;
 }
 
-   main > section > button.btnProjeto{
+ section > button.btnProjeto{
     display: inline-block;
     padding: 0px 258px 303px 0px;
     width: 100px;
@@ -327,12 +327,12 @@ main > section > article > span {
     margin: 15px;
 }
 
-main > section > button.btnProjeto > ul > img.projetos {
+ section > button.btnProjeto > ul > img.projetos {
     width: 250px;
     height: 250px;
 }
 
-main > section > button.btnProjeto > ul.menuProjetos > li{
+ section > button.btnProjeto > ul.menuProjetos > li{
     font-size: 22px;
     width: 257px;
     padding: 10px 0px;
@@ -340,7 +340,7 @@ main > section > button.btnProjeto > ul.menuProjetos > li{
 }
 
 header > nav > ul > li > a{
-    font-size: 30px;
+   font-size: 30px;
    }
 
 } 
