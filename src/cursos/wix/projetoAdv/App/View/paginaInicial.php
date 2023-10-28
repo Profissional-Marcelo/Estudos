@@ -27,23 +27,25 @@
             </nav>
         </div>
     </header>
-    <section>
+    <section class="sectionUm">
         <img src="../../Assets/img/raquel.webp" alt="Raquel Braga">
-        <h2>Raquel Braga</h2>
-        <h3>ADVOGADA E CONSULTORA</h3>
-        <h3>Telefone:</h3>
-        <p>(11) 3456-7890</p>
-        <h3>E-mail:</h3>
-        <p>info@meusite.com</p>
-        <h3>Endereço:</h3>
-        <p>Av. Bernardino de Campos, 98 São Paulo, SP. CEP: 12345-678</p>
-        <h3>Data de Nascimento:</h3>
-        <p>14 de Março de 1984</p>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
-        <a href="#"></a>
+        <div>
+            <h2>Raquel Braga</h2>
+            <h3>ADVOGADA E CONSULTORA</h3>
+            <h3>Telefone:</h3>
+            <p>(11) 3456-7890</p>
+            <h3>E-mail:</h3>
+            <p>info@meusite.com</p>
+            <h3>Endereço:</h3>
+            <p>Av. Bernardino de Campos, 98 São Paulo, SP. CEP: 12345-678</p>
+            <h3>Data de Nascimento:</h3>
+            <p>14 de Março de 1984</p>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </div>
     </section>
     <section>
         <h2>Olá! Eu sou a Raquel</h2>
