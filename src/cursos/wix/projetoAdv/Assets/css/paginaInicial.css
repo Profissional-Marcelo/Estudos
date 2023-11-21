@@ -7,16 +7,26 @@
 }
 
 :root{
-  --corTitulo: #182153;
-  --corIcone: #182153;
-  --iconeAtivo: #B0B0B0;
-  --corSubtitulo: #182195;
+    --gradiente1-1: #2B282F;
+    --gradiente1-2: #4E435C;
+    --gradiente1-3: #4E435C;
+    --quemsou: #9c8cb1;
+    --coricones: #F2E8B3;
+    --gradiente2-1: #CFBBE6;
+    --gradiente2-2: #DACADA;
+    --gradiente2-3: #E0CFD7;
+    --titulo-projeto: #9A888B;
+    --titulo: 'fonteTitulo', sans-serif;
+    --gradiente3-1: #000000;
+    --gradiente3-2: #353535;
+    --gradiente3-3: #5f5f5f;
 }
 
 *{
     margin: 0px;
-    padding: 0px;   
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;  
+    
+    font-family: var(--titulo);
 }
 
 ul{
@@ -25,116 +35,186 @@ ul{
 
 
 body, html{
-    background-color: white;
+    width: 98vw;
+    background-color: black;
 }
 
-.semBarra{
-    overflow: hidden;
+section.primeiraParte{
+    background-image: radial-gradient(circle, var(--gradiente1-3),var(--gradiente1-2), var(--gradiente1-1));
+    width: 100vw;
+    min-height: 100vh;
+    text-align: start;
+    height: 540px;
+    color: white;
+    display: grid;
+    place-items: center; 
 }
 
-header {
-    padding: 10px;
-    display: flex;
-    align-items: center;
-}
-
-
-header > h1{
-    color: var(--corTitulo);
-    text-align: center;
-    flex: 1;
-}
-
-header > div {
-    margin-left: auto;
-}
-
-header > div > nav {
-    position: relative;
-    width: 70px;
-    height: 70px;
-    background-color: var(--corIcone);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
-    border-radius: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-header > div > nav > span {
-    position: absolute;
-      width: 40px;
-      height: 4px;
-      background-color: white;
-      border-radius: 4px;
-      transition: 0.150s;
-}
-
-header > div > nav > span:nth-child(1){
-    transform: translateY(-15px);
-}
-
-header > div > nav.ativo {
-
-    background-color: var(--iconeAtivo);
+section.primeiraParte > div {
+    width: 90vw;
+    display: block;
+    margin: auto;
     
 }
 
-header > div > nav.ativo > span:nth-child(1) {
-    width: 40px;
-    transform: translateY(0px) rotate(45deg);
-    transition-delay: 0.125s;
+section.primeiraParte > div > p.quemSou {
+    display: block;
+    color: var(--quemsou);
+    text-align: start;
+    font-size: 12px;
 }
 
-header > div > nav > span:nth-child(2){
-    transform: translateY(15px);
+section.primeiraParte > div > div.container {
+    display: flex;
+    
 }
 
-header > div > nav.ativo > span:nth-child(2) {
-    width: 40px;
-    transform: translateY(0px) rotate(315deg);
-    transition-delay: 0.25s;
-}
-
-header > div > nav.ativo > span:nth-child(3) {
-    display: none;
+section.primeiraParte > div > div.container > h1.titulo1{
+    display: inline-block;
+    font-size: 60px;
 }
 
 
-header > div > nav > ul {
-       display: none; 
-       /* 
-       position: fixed; 
-       top: 0;
-       left: 0;
-       width: 100%;
-       height: 100%;
-       background-color: white;
-       z-index: 1;  
-    */
+section.primeiraParte > div > div > div.icones{
+display: inline-block;
+margin: auto;
+}
+
+section.primeiraParte > div > div > div.icones > a {
+    padding: 12px 0.1px 0px 0.5px;
+}
+
+section.primeiraParte > div > div > div.icones > a > i{
+    padding-bottom: 5px;
+    display: inline-block;
+    font-size: 25px;
+    color: var(--coricones);
+    margin-right: 5px;
+}
+
+section.primeiraParte > div > div > div.icones > a > img{
+    display: inline-block;
+    width:  25px;
+    height: 23px
+}
+
+
+section.primeiraParte > div > p.story, section.primeiraParte > div > span > p.story{
+    text-align: justify;
+    font-size: 11px;
+    font-weight: normal;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    text-indent: 50px;
+}
+
+section.primeiraParte > div > h1.titulo2 > strong{
+    display: inline-block;
+    font-size: 60px;
+}
+
+section.primeiraParte > p.story {
+    text-align: start;
+}
+
+section.segundaParte{
+    background-image: linear-gradient(to bottom, var(--gradiente2-1), var(--gradiente2-2), var(--gradiente2-3));
+    width: 100vw;
+    min-height: 100vh;
+}
+
+section.segundaParte > div.espacamento{
+    display: block;
+    justify-content: column;
+    text-align: center;
+    margin: auto;
+   
+}
+
+section.segundaParte > div.espacamento > div.projetos{
+    padding: 10px;
+}
+
+section.segundaParte > div.espacamento > div > img{
+    padding: 20px;
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 200px;
+}
+
+section.segundaParte > div.espacamento > div.projetos > p {
+    color: var(--titulo-projeto);
+    font-size: 11px;
+}
+
+section.segundaParte > div.espacamento > div.projetos > h2 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+section.segundaParte > h2, p, img{
+    display: inline;
 } 
 
-section.sectionUm {
+section.terceiraParte {
+    background-image: radial-gradient(circle, var(--gradiente3-3),var(--gradiente3-2), var(--gradiente3-1));
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.terceiraParte > h2{
+    font-family: Arial, Helvetica, sans-serif;
+   color: white;
+   text-align: center;
+   margin-bottom: 60px;
+}
+
+
+section.terceiraParte > form > div  {
+    color: white;
+    text-align: center;
+}
+
+section.terceiraParte > form > div > div.linhaEmail > label  {
+    margin-bottom: 10px;
     display: block;
-    background-color: #182195;
-    background-image: url('../img/fundo.webp');
+    margin-right: 35px;
 }
 
-section.sectionUm > img {
+section.terceiraParte > form > div > div.linhaEmail > input  {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section.terceiraParte > form > div > div.linhaComentario  { 
+    margin-bottom: 30px;
+  margin-top: 20px;    
+} 
+
+section.terceiraParte > form > div > div.linhaComentario > label {
+    margin-bottom: 10px;
     display: block;
+    
+} 
+
+section.terceiraParte > form > div > div.linhaComentario > textarea {
+    display: inline-block;
+  
+} 
+
+section.terceiraParte > form > button {
+    color: white;
+    background-color: rgb(138, 93, 175);
+    border-radius: 50px;
+    width: 250px;
+    padding: 25px;
     margin: auto;
-}
-
-section.sectionUm > div {
-    background-color: white;
-    margin: auto;
-}
-
-section.sectionUm > div > h2 {
-    color: var(--corTitulo)
-
-}
-
-section.sectionUm > div > h3 {
-    color: var(--corSubtitulo);
+    display: block;
+    border: 1px solid black;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.6);
 }
