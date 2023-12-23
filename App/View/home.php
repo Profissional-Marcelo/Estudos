@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha trajetória</title>
-    <link rel="shortcut icon" href="src/img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/index.css" media="all">
-    <link rel="stylesheet" href="src/css/indexMQ.css">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="shortcut icon" href="../../Assets/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../../Assets/css/home.css" media="all">
+    <link rel="stylesheet" href="../../Assets/css/homeMQ.css">
+    <title>Estudos</title>
 </head>
 <body>
     <header id="header">
         <nav class="dropdownMenu">
             
-                <button id="btnMenu"><img src="src/img/menu.png" alt="ícone de menu"></button>
+                <button id="btnMenu"><span class="material-symbols-outlined">menu</span></button>
                 <ul id="listarMenu">
                 <li><a href="#">Carreira</a></li>
             </ul>
@@ -21,18 +21,18 @@
         <h1 class="nome">Marcelo Henrique Cornelis Rei</h1>
     </header>
         <section class="lamp" id="sectionLamp">
-            <button id="btnLampOff"><img src="src/img/lampOff.png" alt="Lâmpada desligada" class="lamp"></button>
+            <button id="btnLampOff"><img src="../../Assets/img/lampOff.png" alt="Lâmpada desligada" class="lamp"></button>
             <article id="ligarDesligar"><span>
-                <button id="btnLampOn"><img src="src/img/lampOn.png" alt="Lâmpada ligada" class="lamp"></button>
+                <button id="btnLampOn"><img src="../../Assets/img/lampOn.png" alt="Lâmpada ligada" class="lamp"></button>
                 <p>"Não existe formula mágica para aprender, existe estudo, persistência e dedicação."</p>
             </span>
             </article>
         </section> 
-            <section><img src="src/img/titlePage.png" alt="título da página" class="titulo" id="titulo">  </section>
+            <section><img src="../../Assets/img/titlePage.png" alt="título da página" class="titulo" id="titulo">  </section>
             <section class="dividir-em-dois">
              <button class="btnProjeto" id="btnProjetoAndroid">
                 <ul class="menuProjetos" id="androidCard">
-                    <img src="src/img/projetoAndroid.png" alt="projeto android" class="projetos">
+                    <img src="../../Assets/img/projetoAndroid.png" alt="projeto android" class="projetos">
                     <li>Projeto Android</li>
                 </ul>
              </button>
@@ -42,11 +42,11 @@
                     <li><a href="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-android/index.html" target="_blank">Ir para</a></li>
                     <li>Baixar Script</li>
                 </article>
-                    <li><button id="btnVoltarAndroid"><img src="src/img/voltar.png" alt="botão voltar"></button></li>
+                    <li><button id="btnVoltarAndroid"><img src="../../Assets/img/voltar.png" alt="botão voltar"></button></li>
              </ul>  
              <button class="btnProjeto" id="btnProjetoCordel">
                 <ul class="menuProjetos" id="cordelCard">
-                    <img src="src/img/projetoCordel.png" alt="projeto Cordel" class="projetos">
+                    <img src="../../Assets/img/projetoCordel.png" alt="projeto Cordel" class="projetos">
                     <li>Projeto Cordel</li>
                 </ul>
              </button>
@@ -62,7 +62,7 @@
              <section class="dividir-em-dois">
              <button class="btnProjeto" id="btnProjetoPokedex">
                 <ul class="menuProjetos" id="pokedexCard">
-                    <img src="src/img/projetoPokedex.png" alt="projeto Pokedex" class="projetos">
+                    <img src="../../Assets/img/projetoPokedex.png" alt="projeto Pokedex" class="projetos">
                     <li>Projeto Pokédex</li>
                 </ul>
              </button>
@@ -76,7 +76,7 @@
              </ul> 
              <button class="btnProjeto" id="btnProjetoRedes-sociais">
                 <ul class="menuProjetos" id="redes-sociaisCard">
-                    <img src="src/img/projetoRedes-sociais.png" alt="projeto Redes SOciais" class="projetos">
+                    <img src="../../Assets/img/projetoRedes-sociais.png" alt="projeto Redes SOciais" class="projetos">
                     <li>Projeto Redes-Sociais</li>
                 </ul>
              </button>
@@ -90,10 +90,10 @@
              </ul> 
         </section>
     <section class="penguin">   
-        <a href="#"><img src="src/img/penguin.png" alt="pinguim ícone"></a>
+        <a href="#"><img src="../../Assets/img/penguin.png" alt="pinguim ícone"></a>
         <p>Venha conhecer minha página!</p>
     </section>
-    <script src="src/js/jquery.js"></script>
-    <script src="src/js/script.js"></script>
+    <script src="../../Assets/js/jquery.js"></script>
+    <script src="../../Assets/js/script.js"></script>
 </body>
 </html>
