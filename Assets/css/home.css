@@ -1,7 +1,17 @@
 @charset "UTF-8";
 
+
 :root {
- --bgColor: #413243;
+    --cor01: #920202;
+    --cor02: #413244;
+    --cor03: #4C4D71;
+    --cor04: #F2EDDB;
+    --cor05: #014034;
+    --bgColor: #413243;
+    --fonte-titulo: 'Antonio Sans', sans-serif;
+    --fonte-subTitulo: 'Open Sans m', sans-serif;
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
 }
 
 * {
@@ -36,9 +46,9 @@ body > section.penguin > a > img{
 }
    
    body > section.penguin{
-    position: fixed;
-    top: 88vh;
-    left: 80vw;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
 }
 
 
@@ -56,6 +66,9 @@ header {
 }
 
 header > h1.nome {
+    display: inline-block;
+    margin: auto;
+    transform: translateX(-20px);
     font-size: 21px;
     color: white;
     text-decoration: underline;
@@ -71,6 +84,7 @@ header > nav > button {
 }
 
 header > nav > button > span {
+    cursor: pointer;
     font-size: 30px !important;
 }
 

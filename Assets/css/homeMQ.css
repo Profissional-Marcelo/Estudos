@@ -1,67 +1,19 @@
 @charset "UTF-8";
 
 
-@media screen and (min-width: 375px) and (max-width: 411px){ 
 
-     body > section.penguin > a{
-        top: 80%;
-        left: 80%;
-     }
+/* TABLET */
+@media screen and (min-width: 700px) and (max-width: 1399px){ 
 
-     header > h1.nome {
-        font-size: 20px;
+    section.lamp{
+        margin: 0px 0px 10px 0px;
+        display: block;
+        height: 80px;
+        
     }
 
-     section > article > span > p {
-        font-size: 25px;
-        margin-bottom: 3px;
-    }
-
-     section > button.btnProjeto > ul.menuProjetos > li{
-        font-size: 14px;
-    }
-
-     section > img.titulo {
-        margin:  10px auto 20px auto;
-    }
-}
-
-
-
-@media screen and (min-width: 412px) and (max-width: 699px){ 
-
-    body > section.penguin{
-        top: 86%;
-        left: 80%;
-    }
-
-    body > section.penguin > a > img{
-     width: 100px;
-    }
-
-    header > h1.nome {
-       font-size: 25px;
-   }
-
-     section > article > span > p {
-       font-size: 25px;
-       margin-bottom: 3px;
-   }
-
-    section > button.btnProjeto > ul.menuProjetos > li{
-       font-size: 14px;
-   }
-
-    section > img.titulo {
-       margin:  10px auto 20px auto;
-   }
-}
-
-@media screen and (min-width: 700px) and (max-width: 906px){ 
-
-    body > section.penguin{
-        top: 85%;
-        left: 88%;
+    header > nav > button > span {
+        font-size: 55px !important;
     }
 
     body > section.penguin > a > img{
@@ -74,7 +26,6 @@
     }
 
     header > h1.nome {
-        margin: auto;
         font-size: 40px;
    }
 
@@ -94,7 +45,7 @@
 
     section > img.titulo {
     width: 400px;
-    margin:  20px auto 30px auto;
+    margin:  0px auto 30px auto;
 }
 
     section > button.btnProjeto{
@@ -124,157 +75,27 @@ header > nav > ul > li > a{
 }
 
 
-@media screen and (min-width: 907px) and (max-width: 1057px){ 
-    body > section.penguin{
-        top: 86%;
-        left: 91%;
-    }
 
-    body > section.penguin > a > img{
-     width: 100px;
-    }
-
-    header > nav > button > img {
-        margin-top: 3px;
-        width: 40px;
-    }
-
-    header > h1.nome {
-        margin: auto;
-        font-size: 40px;
-   }
-
- section > article > span > p {
-    font-size: 30px;
-    margin-bottom: 19px;
-}
+/* PC */
 
 
- section > button.btnProjeto > ul.menuProjetos > li{
-       font-size: 14px;
-   }
-
- section.dividir-em-dois{
-    display: block;
-    text-align: center;
-   }
-
- section > img.titulo {
-    width: 400px;
-    margin:  20px auto 30px auto;
-}
-
- section > button.btnProjeto{
-    display: inline-block;
-    padding: 0px 258px 303px 0px;
-    width: 100px;
-    height: 200px;
-    margin: 20px;
-}
-
- section > button.btnProjeto > ul > img.projetos {
-    width: 250px;
-    height: 250px;
-}
-
- section > button.btnProjeto > ul.menuProjetos > li{
-    font-size: 22px;
-    width: 257px;
-    padding: 10px 0px;
-    font-weight: bold;
-}
-
-header > nav > ul > li > a{
-    font-size: 30px;
-   }
-
-}
-
-@media screen and (min-width: 1058px) and (max-width: 1500px){ 
-
+@media screen and (min-width: 1400px) {
     body > section.penguin:hover > p{
         display: inline-block;
-    }
-
-    body > section.penguin{
-        top: 86%;
-        left: 92%;
-    }
-
-    body > section.penguin > a > img{
-     width: 100px;
-    }
-
-    header > nav > button > img {
-        margin-top: 3px;
-        width: 40px;
-    }
-
-    header > h1.nome {
-        margin: auto;
-        font-size: 40px;
-   }
-
- section > article > span > p {
-    font-size: 35px;
-    margin-bottom: 7px;
-}
-
- section > button.btnProjeto > ul.menuProjetos > li{
-       font-size: 14px;
-   }
-
- section.dividir-em-dois{
-    display: block;
-    text-align: center;
-   }
-
-section > img.titulo {
-    width: 400px;
-    margin:  20px auto 30px auto;
-}
-
- section > button.btnProjeto{
-    display: inline-block;
-    padding: 0px 258px 303px 0px;
-    width: 100px;
-    height: 200px;
-    margin: 20px;
-}
-
- section > button.btnProjeto > ul > img.projetos {
-    width: 250px;
-    height: 250px;
-}
-
- section > button.btnProjeto > ul.menuProjetos > li{
-    font-size: 22px;
-    width: 257px;
-    padding: 10px 0px;
-    font-weight: bold;
-}
-
-header > nav > ul > li > a{
-    font-size: 30px;
-   }
-
-} 
-
-@media screen and (min-width: 1501px) {
-    body > section.penguin:hover > p{
-        display: inline-block;
-    }
-
-    body > section.penguin{
-        top: 86%;
-        left: 92%;
-    }
-
-    body > section.penguin > a > img{
-     width: 100px;
     }
 
     
+
+    body > section.penguin > a > img{
+     width: 100px;
+    }
+
+    section.lamp{
+        margin: 0px auto 5px auto;
+        display: block;
+        height: 80px;
+        
+    }
 
     header > nav > ul > li > a:hover{
         text-decoration: underline;
@@ -282,9 +103,8 @@ header > nav > ul > li > a{
         color: black;
     }
 
-    header > nav > button > img {
-        margin-top: 3px;
-        width: 40px;
+    header > nav > button {
+        display: none;
     }
 
     header > h1.nome {

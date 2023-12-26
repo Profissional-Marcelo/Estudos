@@ -41,7 +41,7 @@
                 </ul>
             </button>
             <ul class="menuProjeto" id="menuAndroid">
-                <article class="sectionIframe"><iframe src="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-android/index.html" frameborder="0"></iframe></article>
+                <article class="sectionIframe"><iframe src="https://profissional-marcelo.github.io/Projeto-Android/" frameborder="0"></iframe></article>
                 <article class="container">
                     <li><a href="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-android/index.html" target="_blank">Ir para</a></li>
                     <li>Baixar Script</li>
@@ -55,12 +55,12 @@
                 </ul>
             </button>
             <ul class="menuProjeto" id="menuCordel">
-                <article class="sectionIframe"><iframe src="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-cordel/index.html" frameborder="0"></iframe></article>
+                <article class="sectionIframe"><iframe src="https://profissional-marcelo.github.io/Projeto-Cordel/" frameborder="0"></iframe></article>
                 <article class="container">
                     <li><a href="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-cordel/index.html" target="_blank">Ir para</a></li>
                     <li>Baixar Script</li>
                 </article>
-                <li><button id="btnVoltarCordel"><img src="src/img/voltar.png" alt="botão voltar"></button></li>
+                <li><button id="btnVoltarCordel"><img src="../../Assets/img/voltar.png" alt="botão voltar"></button></li>
             </ul>
         </section class="dividir-em-dois">
         <section class="dividir-em-dois">
@@ -71,12 +71,12 @@
                 </ul>
             </button>
             <ul class="menuProjeto" id="menuPokedex">
-                <article class="sectionIframe"><iframe src="src/cursos/dev-em-dobro/projetos-replicados/Pokedex/index.html" frameborder="0"></iframe></article>
+                <article class="sectionIframe"><iframe src="https://profissional-marcelo.github.io/Projeto-Pokedex/" frameborder="0"></iframe></article>
                 <article class="container">
                     <li><a href="src/cursos/dev-em-dobro/projetos-replicados/Pokedex/index.html" target="_blank">Ir para</a></li>
                     <li>Baixar Script</li>
                 </article>
-                <li><button id="btnVoltarPokedex"><img src="src/img/voltar.png" alt="botão voltar"></button></li>
+                <li><button id="btnVoltarPokedex"><img src="../../Assets/img/voltar.png" alt="botão voltar"></button></li>
             </ul>
             <button class="btnProjeto" id="btnProjetoRedes-sociais">
                 <ul class="menuProjetos" id="redes-sociaisCard">
@@ -90,12 +90,12 @@
                     <li><a href="src/cursos/html-css(curso-em-video)/projetos-replicados/projeto-social/index.html" target="_blank">Ir para</a></li>
                     <li>Baixar Script</li>
                 </article>
-                <li><button id="btnVoltarRedesSociais"><img src="src/img/voltar.png" alt="botão voltar"></button></li>
+                <li><button id="btnVoltarRedesSociais"><img src="../../Assets/img/voltar.png" alt="botão voltar"></button></li>
             </ul>
         </section>
       
     <section class="penguin">
-        <a href="#"><img src="../../Assets/img/penguin.png" alt="pinguim ícone"></a>
+        <a href="https://www.marcelorei.com.br"><img src="../../Assets/img/penguin.png" alt="pinguim ícone"></a>
         <p>Venha conhecer minha página!</p>
     </section>
     <script src="../../Assets/js/jquery.js"></script>
