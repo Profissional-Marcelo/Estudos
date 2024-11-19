@@ -18,6 +18,7 @@
     margin: 0px;
     padding: 0px;
     list-style-type: none;
+    font-family: var(--fonte-padrao);
 }
 
 html, body {
@@ -46,7 +47,7 @@ body > section.penguin > a > img{
 }
    
    body > section.penguin{
-    position: absolute;
+    position: sticky;
     bottom: 1px;
     right: 1px;
 }

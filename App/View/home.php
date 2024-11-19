@@ -23,10 +23,9 @@
         <h1 class="nome">Marcelo Henrique Cornelis Rei</h1>
     </header>
     <section class="lamp" id="sectionLamp">
-        <button id="btnLampOff"><img src="../../Assets/img/lampOff.png" alt="Lâmpada desligada" class="lamp"></button>
+        
         <article id="ligarDesligar"><span>
-                <button id="btnLampOn"><img src="../../Assets/img/lampOn.png" alt="Lâmpada ligada" class="lamp"></button>
-                <p>"Não existe formula mágica para aprender, existe estudo, persistência e dedicação."</p>
+                
             </span>
         </article>
     </section>

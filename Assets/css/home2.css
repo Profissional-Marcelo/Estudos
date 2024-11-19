@@ -1,0 +1,180 @@
+/* PADRÃO, COMEÇO */
+
+@charset "UTF-8";
+
+
+:root {
+    --cor01: #630000;
+    --cor02: #413244;
+    --cor03: #4C4D71;
+    --cor04: #F2EDDB;
+    --cor05: #014034;
+    --bgColor: #413243;
+    --fonte-titulo: 'Antonio Sans', sans-serif;
+    --fonte-subTitulo: 'Open Sans m', sans-serif;
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --sombra: 2px 2px 0px rgba(0, 0, 0, 0.459);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: var(--fonte-padrao);
+}
+
+/* PADRÃO, FIM */
+
+/* Classes JS COMEÇO*/
+
+.enable{
+    display: inline-block;
+}
+
+.inverterLamp{
+    flex-direction: row-reverse;
+}
+
+.active{
+    display: block;
+}
+
+.disable{
+    display: none;
+}
+
+.aplicarBlur{
+    filter: blur(10px);
+}
+
+/* Classes JS FIM*/
+
+/* Pinguim e menu COMEÇO */
+
+
+section.penguin {
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+    z-index: 2;
+}
+
+section.penguin > button {
+    width: 70px;
+    background-color: transparent;
+    border: none;
+}
+
+
+section.penguin > button > img{
+    width: 100%;
+}
+
+menu { 
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: var(--cor03);
+    z-index: 1;
+}
+
+menu ul{
+    background-color: var(--cor03);
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+menu ul > li, li > a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+/* Pinguim e menu FIM */
+
+
+body {
+    background: var(--bgColor) url(../img/background.png) center center no-repeat fixed;
+    background-size: cover;
+}
+
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    margin-top: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Section Lampada - Início*/
+
+section.lamp {
+    margin: 10px 0px;
+}
+
+section.lamp button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+section.lamp container{
+    display: flex;
+}
+
+p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* Section Lampada - FIM*/
+
+/* Section Projeto - Início*/
+
+
+section.projetos{
+    text-align: center;
+}
+
+section.projetos > img{
+    display: block;
+    margin: 15px auto;
+    width: 300px;
+}
+
+section.projetos container button {
+    margin: 10px 0px;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    width: 70%;
+}
+
+section.projetos container button img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    border: 5px solid white;
+}
+section.projetos container button p{
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Section Projeto - FIM */
