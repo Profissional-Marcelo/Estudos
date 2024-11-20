@@ -28,26 +28,40 @@
             <img src="../../Assets/img/titlePage.png" alt="">
             <slider>
                 <container class="slides">
-                <button class="btnProjeto" id="btnProjetoRedes-sociais">
+                    <button class="btnProjeto" id="btnProjetoRedes-sociais" data-src="https://profissional-marcelo.github.io/ProjetoRedesSociais/">
                         <img src="../../Assets/img/projetoRedes-sociais.png" alt="projeto Redes SOciais" class="projetos">
                         <p>Projeto Redes-Sociais</p>
                     </button>
-                    <button class="btnProjeto" id="btnProjetoCordel">
+                    <button class="btnProjeto" id="btnProjetoCordel" data-src="https://profissional-marcelo.github.io/Projeto-Cordel/">
                         <img src="../../Assets/img/projetoCordel.png" alt="projeto Cordel" class="projetos">
                         <p>Projeto Cordel</p>
                     </button>
-                    <button class="btnProjeto" id="btnProjetoAndroid">
+                    <button class="btnProjeto" id="btnProjetoAndroid" data-src="https://profissional-marcelo.github.io/Projeto-Android/">
                         <div class="botao_projeto">
                             <img src="../../Assets/img/projetoAndroid.png" alt="projeto android" class="projetos">
                             <p>Projeto Android</p>
                         </div>
                     </button>
-                    <button class="btnProjeto" id="btnProjetoPokedex">
+                    <button class="btnProjeto" id="btnProjetoPokedex" data-src="https://profissional-marcelo.github.io/Projeto-Pokedex/">
                         <img src="../../Assets/img/projetoPokedex.png" alt="projeto Pokedex" class="projetos">
                         <p>Projeto Pokédex</p>
                     </button>
                 </container>
             </slider>
+        </section>
+
+        <section class="iframe" style="display: none;">
+            <iframe src="" frameborder="0" id="iframe"></iframe>
+            <div id="botoes">
+                <a href=""><button id="ir_para"><span class="material-symbols-outlined">arrow_outward</span></button></a>
+                <button id="fechar_projeto"><span class="material-symbols-outlined">close</span></button>
+                <button id="btnClose"><span class="material-symbols-outlined">download</span></button>
+                <div>
+                    <label name="label" for="ir_para">Ir para</label>
+                    <label name="fechar_projeto" for="fechar_projeto">Fechar</label>
+                    <label>Baixar código</label>
+                </div>
+            </div>
         </section>
 
         <section class="penguin">
