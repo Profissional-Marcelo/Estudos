@@ -1,166 +1,145 @@
-@charset "UTF-8";
-
-
-
-/* TABLET */
-@media screen and (min-width: 700px) and (max-width: 1399px){ 
-
-    section.lamp{
-        margin: 0px 0px 10px 0px;
-        display: block;
-        height: 80px;
-        
+@media screen and (min-width: 500px) and (max-width: 1366px){ 
+    h1 {
+        font-size: 30px;
     }
 
-    header > nav > button > span {
-        font-size: 55px !important;
+    section.lamp {
+        margin: 20px;
     }
 
-    body > section.penguin > a > img{
-     width: 100px;
+    section.lamp p {
+        font-size: 18px;
+        margin-left: 20px;
     }
 
-    header > nav > button > img {
-        margin-top: 3px;
-        width: 40px;
+    section.lamp container{
+        flex-direction: row;
     }
 
-    header > h1.nome {
-        font-size: 40px;
-   }
+    section.penguin {
+        bottom: 0px;
+        right: 0px;
+    }
 
-    section > article > span > p {
-    font-size: 35px;
-    margin-bottom: 7px;
+    section.projetos container button {
+        width: 30%;
+        max-width: 200px;
+        margin: 10px;
+    }
+
+    section.projetos container button img{
+        height: 25vw;
+        max-height: 150px;
+    }
+
+    section.projetos container button p {
+        font-size: 12px;
+    }
+
+    section.penguin > button {
+        width: 100px;
+    }
+
+    menu ul > li, li > a {
+        margin: 20px;
+        font-size: 30px;
+    }
 }
 
-    section > button.btnProjeto > ul.menuProjetos > li{
-       font-size: 14px;
-   }
+@media screen and (min-width: 1366px) {
+    h1 {
+        font-size: 30px;
+    }
 
-    section.dividir-em-dois{
-    display: block;
-    text-align: center;
-   }
+    section.lamp {
+        margin: 20px;
+    }
 
-    section > img.titulo {
-    width: 400px;
-    margin:  0px auto 30px auto;
-}
+    section.lamp p {
+        font-size: 20px;
+        max-width: 400px;
+        margin-left: 20px;
 
-    section > button.btnProjeto{
-    display: inline-block;
-    padding: 0px 258px 303px 0px;
-    width: 100px;
-    height: 200px;
-    margin: 20px;
-}
+    }
 
-section > button.btnProjeto > ul > img.projetos {
-    width: 250px;
-    height: 250px;
-}
+    section.lamp container{
+        flex-direction: row;
+    }
 
- section > button.btnProjeto > ul.menuProjetos > li{
-    font-size: 22px;
-    width: 257px;
-    padding: 10px 0px;
-    font-weight: bold;
-}
+    section.penguin {
+        bottom: 0px;
+        right: 0px;
+    }
 
-header > nav > ul > li > a{
-    font-size: 30px;
-   }
+    section.projetos container button {
+        cursor: pointer;
+        width: 30%;
+        max-width: 180px;
+        margin: 10px;
+    }
 
-}
+    section.projetos container button:hover{
+        transform: translate(2px, -2px);
+        transition: 1s;
+        p {
+            color: black;
+            background-color: lightgray;
+        }
+       
+    }    
 
+    section.projetos container button img{
+        height: 25vw;
+        max-height: 130px;
+    }
 
+    section.projetos container button p {
+        font-size: 16px;
+    }
 
-/* PC */
+    section.penguin > button {
+        width: 100px;
+    }
 
-
-@media screen and (min-width: 1400px) {
-    body > section.penguin:hover > p{
-        display: inline-block;
+    menu ul > li, li > a {
+        margin: 20px;
+        font-size: 30px;
     }
 
     
-
-    body > section.penguin > a > img{
-     width: 100px;
+    section.iframe div button {
+        cursor: pointer;
+        width: 80px;
     }
 
-    section.lamp{
-        margin: 0px auto 5px auto;
-        display: block;
-        height: 80px;
-        
+    section.iframe div button span{
+        font-size: 30px !important;
     }
 
-    header > nav > ul > li > a:hover{
-        text-decoration: underline;
-        background-color: white;
-        color: black;
+    section.iframe div label {
+        background-color: black;
+        padding: 10px 0px;
+        margin: 5px 12px !important;
+        width: 80px;
+        border-radius: 5px;
+        cursor: pointer;
     }
 
-    header > nav > button {
-        display: none;
+    section.iframe iframe{
+        height: 70vh;
     }
 
-    header > h1.nome {
-        margin: auto;
-        font-size: 40px;
-   }
-
- section > article > span > p {
-    font-size: 40px;
-    margin-left: 50px;
-    margin-bottom: 40px;
-}
-
- section > article > span {
-    display: flex;
-   text-align: center;
-    flex-direction: row;
     
- }
+    section.iframe div label[for=ir_para]{
+        transform: translate(10px, -5px) !important;
+    }
 
- section > button.btnProjeto > ul.menuProjetos > li{
-      font-size: 14px;
-   }
+    section.iframe div label[for=fechar_projeto]{
+        transform: translate(5px, -5px);
+    }
 
- section.dividir-em-dois{
-    display: block;
-    text-align: center;
-   }
-
- section > img.titulo {
-    width: 400px;
-    margin:  auto;
+    section.iframe div button:hover {
+        transition: 1s;
+        background-color: #cec9b6;
+    }
 }
-
- section > button.btnProjeto{
-    display: inline-block;
-    padding: 0px 258px 303px 0px;
-    width: 100px;
-    height: 200px;
-    margin: 15px;
-}
-
- section > button.btnProjeto > ul > img.projetos {
-    width: 250px;
-    height: 250px;
-}
-
- section > button.btnProjeto > ul.menuProjetos > li{
-    font-size: 22px;
-    width: 257px;
-    padding: 10px 0px;
-    font-weight: bold;
-}
-
-header > nav > ul > li > a{
-   font-size: 30px;
-   }
-
-} 

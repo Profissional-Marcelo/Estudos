@@ -1,8 +1,10 @@
+/* PADRÃO, COMEÇO */
+
 @charset "UTF-8";
 
 
 :root {
-    --cor01: #920202;
+    --cor01: #630000;
     --cor02: #413244;
     --cor03: #4C4D71;
     --cor04: #F2EDDB;
@@ -15,224 +17,217 @@
 }
 
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
+    box-sizing: border-box;
     font-family: var(--fonte-padrao);
 }
 
-html, body {
-    width: 98vw;
-    height: 98vh;
-    margin: 0;
-    padding: 0;
+/* PADRÃO, FIM */
+
+/* Classes JS COMEÇO*/
+
+.enable{
+    display: inline-block;
 }
+
+.inverterLamp{
+    flex-direction: row-reverse;
+}
+
+.active{
+    display: block;
+}
+
+.disable{
+    display: none;
+}
+
+.aplicarBlur{
+    filter: blur(10px);
+}
+
+/* Classes JS FIM*/
+
+/* Pinguim e menu COMEÇO */
+
+
+section.penguin {
+    position: fixed;
+    bottom: -8px;
+    right: -8px;
+    z-index: 2;
+}
+
+section.penguin > button {
+    width: 70px;
+    background-color: transparent;
+    border: none;
+}
+
+
+section.penguin > button > img{
+    width: 100%;
+}
+
+menu { 
+    position: fixed;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: var(--cor03);
+    z-index: 1;
+}
+
+menu ul{
+    background-color: var(--cor03);
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+
+menu ul > li, li > a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+/* Pinguim e menu FIM */
+
 
 body {
     background: var(--bgColor) url(../img/background.png) center center no-repeat fixed;
     background-size: cover;
 }
 
-body .blur {
-  filter: blur(4px);
-}
 
-body .esconda{
-    display: none;
-}
-
-
-body > section.penguin > a > img{
-    width: 70px;
-}
-   
-   body > section.penguin{
-    position: sticky;
-    bottom: 1px;
-    right: 1px;
-}
-
-
-body > section.penguin > p{
-        display: none; 
-        position: absolute;
-        color: white;
-        font-size: 20px;
-        right: 100px;
-}
-
-header {
-    display: flex;
-    flex-direction: row;
-}
-
-header > h1.nome {
-    display: inline-block;
-    margin: auto;
-    transform: translateX(-20px);
-    font-size: 21px;
+h1 {
     color: white;
     text-decoration: underline;
-    margin-bottom: 20px;
-}
-
-header > nav > button {
-    border: none;
-    background-color: transparent;
-    color: white;
-    transform: translateY(-1px);
-  
-}
-
-header > nav > button > span {
-    cursor: pointer;
-    font-size: 30px !important;
-}
-
-header > nav > ul > button > img {
-    width: 20px;
-}
-
-header > nav > ul {
-    background-color: black;
-    display: none;
-    position: absolute;
-    z-index: 2;
-}
-
-
-header > nav > ul > li > a{
- color: white;
- text-decoration: none;
- font-size: 20px;
-}
-
-section.lamp{
-    display: block;
-    height: 80px;
-    
-}
-
- section > article {
-    display: none;
-    transform: translateY(-20px);
-}
-
- section > article > span {
-   display: flex;
-   flex-direction: row-reverse; 
-}
-
- section > article > span > p {
-    margin-left: 10px;
-    margin-top: 25px;
-    margin-bottom: 18px;
-    color: white;
+    margin-top: 5px;
     font-size: 20px;
+    text-align: center;
 }
 
- section > button, section > article > span > button {
-    border: none;
+/* Section Lampada - Início*/
+
+section.lamp {
+    margin: 10px 0px;
+}
+
+section.lamp button{
     background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
+section.lamp container{
+    display: flex;
+}
+
+p{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* Section Lampada - FIM*/
+
+/* Section Projeto - Início*/
 
 
- section > img.titulo {
+section.projetos{
+    text-align: center;
+}
+
+section.projetos > img{
     display: block;
-    margin:  0px auto 20px auto;
+    margin: 15px auto;
     width: 300px;
 }
 
- section > button.btnProjeto{
-    display: block;
-    margin: auto;
-}
-
- section > button.btnProjeto > ul {
-    width: 150px;
-    height: 150px;
-    margin: auto;
-}
-
- section > button.btnProjeto > ul.menuProjetos > li{
-    border-top: white 4px solid;
-    text-align: center;
-    color: white;
-    background-color: black;
-    width: 158px;
-    padding: 10px 0px;
-    font-weight: bold;
-}
-
- section  > ul.menuProjeto {
-    display: none;
-    position: fixed;
-    top: 0px;
-    z-index: 4;
-    color: white;
-}
-
- section > ul > article.container {
-    border: white 1px solid;
-    display: flex;
-    width: 99vw;
-    height: 100px;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(48, 48, 48);
-
-}
-
- section > ul > article.sectionIframe {
-    display: flex;
-    width: 100vw;
-    height: 53vh;
-}
-
- section > ul > article.sectionIframe > iframe {
-    display: flex;
-    width: 100vw;
-}
-
- section  > ul.menuProjeto > article > li > a{
-    color: white;
-    text-decoration: none;  
-    padding: 10px;
-}
-
- section > ul > li > button {
-    display: block;
-    background-color: black;
-    border-radius: 50px;
+section.projetos container button {
+    margin: 10px 0px;
+    display: inline-block;
+    background-color: transparent;
     border: none;
-    box-shadow:  6px 6px 16px rgb(13, 13, 13, 0.616);
-    margin: 20px auto;
-}
- section  > ul.menuProjeto > article > li {
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    border: white 1px solid;
-    background-image: linear-gradient(to bottom, #2FA765, #186C3D, #063D1E);
-    font-size: 25px;
-    padding: 10px;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow:  6px 6px 16px rgb(13, 13, 13, 0.616);
+    width: 200px;
 }
 
- section > button.btnProjeto > ul {
-    margin-bottom: 60px;
-}
-
- section > button.btnProjeto > ul > img.projetos {
-    border-left: white 4px solid;
-    border-right: white 4px solid;
-    border-top: white 4px solid;
-    background-color: black;
+section.projetos container button img{
+    width: 100%;
+    height: 180px;
     display: block;
-    margin: auto;
-    width: 150px;
-    height: 150px;
+    border: 5px solid white;
 }
+section.projetos container button p{
+    color: white;
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+section.iframe{
+    position: fixed;
+    top: 0px; 
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 4;
+}
+
+section.iframe > iframe{
+    width: 100%;
+    height: 50vh;
+}
+
+section.iframe div{
+    margin: -4px;
+    text-align: center;
+}
+
+section.iframe div button {
+    text-align: center;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    margin: 10px;
+    color: var(--cor01);
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+section.iframe button{
+    background-color: var(--cor04);
+}
+
+section.iframe div > div {
+    width: 100%;
+}
+
+section.iframe div > div > label{
+    display: inline-block;
+    width: 80px;
+    font-size: 12px;
+    margin: 0px 7px;
+    transform: translateY(-5px);
+    color: white;
+}
+
+section.iframe div > div > label[for="ir_para"]{
+    transform: translate(8px, -5px);
+}
+
+/* Section Projeto - FIM */
 
