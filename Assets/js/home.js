@@ -15,6 +15,9 @@ const iframe = document.getElementById("iframe");
 const botoes = document.querySelectorAll("button.btnProjeto");
 const fechar_projeto = document.getElementById("fechar_projeto");
 let retorno = false;
+const link_projeto = document.getElementById("link_projeto");
+
+
 //Funções recursivas
 
 function verificaDisplay(){
@@ -133,6 +136,7 @@ botoes.forEach(botao =>{
          if (section_iframe.style.display == "none") {
           section_iframe.style.display = "block";
           iframe.src = botao.getAttribute("data-src");
+          link_projeto.href = botao.getAttribute("data-src")
           body.style.overflow = "hidden";
           aplicaBlur();
             fechar_projeto.addEventListener("click", () => {
