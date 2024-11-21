@@ -16,7 +16,28 @@ const botoes = document.querySelectorAll("button.btnProjeto");
 const fechar_projeto = document.getElementById("fechar_projeto");
 let retorno = false;
 const link_projeto = document.getElementById("link_projeto");
+const baixar_projeto = document.getElementById("baixar_projeto");
 
+
+let lastIndex = 0;
+let slides = document.querySelectorAll('.slides');
+
+slides.forEach((slide, index)=>{
+    document.querySelectorAll('.bullet-single')[index].addEventListener('click',()=>{
+        let lastSlide = slides[lastIndex];
+        let atualSlide = slides[index];
+
+        //Reseta as bullets e seta uma nova com base no container
+
+        document.querySelectorAll('.bullet-single')[lastIndex].classList.remove('active-bullet');
+
+        document.querySelectorAll('.bullet-single')[index].classList.add('active-bullet');
+         lastSlide.style.display = "none";
+         atualSlide.style.display = "block";
+
+        lastIndex = index;
+    })
+})
 
 //Funções recursivas
 
@@ -149,16 +170,13 @@ botoes.forEach(botao =>{
     })
 })
 
-
-
-
-function fecharProjetos() {
-
-
-}
-
-
 //Projetos fim --------------------
+
+//Slides COMEÇO -------------------
+
+
+//Slides FIM-----------------------
+
 
 });
 
