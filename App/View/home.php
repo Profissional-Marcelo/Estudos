@@ -66,10 +66,10 @@
                         </button>
                     </div>
                     <div>
-                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/Projeto-Android/">
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/projeto-portfolio/">
                             <div class="botao_projeto">
-                                <img src="../../Assets/img/projetoAndroid.png" alt="projeto android" class="projetos">
-                                <p>Projeto Android</p>
+                                <img src="../../Assets/img/projetoPortfolio.png" alt="projeto android" class="projetos">
+                                <p>Projeto Portfolio</p>
                             </div>
                         </button>
                         <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/projeto-starbucks/">
