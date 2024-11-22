@@ -72,9 +72,9 @@
                                 <p>Projeto Android</p>
                             </div>
                         </button>
-                        <button class="btnProjeto" id="btnProjetoPokedex" data-src="https://profissional-marcelo.github.io/Projeto-Pokedex/">
-                            <img src="../../Assets/img/projetoPokedex.png" alt="projeto Pokedex" class="projetos">
-                            <p>Projeto Pokédex</p>
+                        <button class="btnProjeto" id="btnProjetoPokedex" data-src="https://profissional-marcelo.github.io/projeto-starbucks/">
+                            <img src="../../Assets/img/projetoStarbucks.png" alt="projeto Starbucks" class="projetos">
+                            <p>Projeto Starbucks</p>
                         </button>
                     </div>
                 </container>

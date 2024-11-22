@@ -193,6 +193,7 @@ section.iframe{
 section.iframe > iframe{
     width: 100%;
     height: 50vh;
+    background-color: white;
 }
 
 section.iframe div{
