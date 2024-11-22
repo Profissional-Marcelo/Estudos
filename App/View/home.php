@@ -32,23 +32,23 @@
             <slider>
                 <container class="slides" style="display: block;">
                 <div>
-                        <button class="btnProjeto" id="btnProjetoRedes-sociais" data-src="https://profissional-marcelo.github.io/ProjetoRedesSociais/">
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/ProjetoRedesSociais/">
                             <img src="../../Assets/img/projetoRedes-sociais.png" alt="projeto Redes SOciais" class="projetos">
                             <p>Projeto Redes-Sociais</p>
                         </button>
-                        <button class="btnProjeto" id="btnProjetoCordel" data-src="https://profissional-marcelo.github.io/Projeto-Cordel/">
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/Projeto-Cordel/">
                             <img src="../../Assets/img/projetoCordel.png" alt="projeto Cordel" class="projetos">
                             <p>Projeto Cordel</p>
                         </button>
                     </div>
                     <div>
-                        <button class="btnProjeto" id="btnProjetoAndroid" data-src="https://profissional-marcelo.github.io/Projeto-Android/">
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/Projeto-Android/">
                             <div class="botao_projeto">
                                 <img src="../../Assets/img/projetoAndroid.png" alt="projeto android" class="projetos">
                                 <p>Projeto Android</p>
                             </div>
                         </button>
-                        <button class="btnProjeto" id="btnProjetoPokedex" data-src="https://profissional-marcelo.github.io/Projeto-Pokedex/">
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/Projeto-Pokedex/">
                             <img src="../../Assets/img/projetoPokedex.png" alt="projeto Pokedex" class="projetos">
                             <p>Projeto Pokédex</p>
                         </button>
@@ -56,23 +56,23 @@
                 </container>
                 <container class="slides" style="display: none;">
                 <div>
-                        <button class="btnProjeto" id="btnProjetoRedes-sociais" data-src="https://profissional-marcelo.github.io/ProjetoRedesSociais/">
-                            <img src="../../Assets/img/projetoRedes-sociais.png" alt="projeto Redes SOciais" class="projetos">
-                            <p>Projeto Redes-Sociais</p>
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/projeto-001/">
+                            <img src="../../Assets/img/projetoDanki1.png" alt="projeto Redes SOciais" class="projetos">
+                            <p>Projeto Danki #1</p>
                         </button>
-                        <button class="btnProjeto" id="btnProjetoCordel" data-src="https://profissional-marcelo.github.io/Projeto-Cordel/">
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/projeto-001/">
                             <img src="../../Assets/img/projetoCordel.png" alt="projeto Cordel" class="projetos">
                             <p>Projeto Cordel</p>
                         </button>
                     </div>
                     <div>
-                        <button class="btnProjeto" id="btnProjetoAndroid" data-src="https://profissional-marcelo.github.io/Projeto-Android/">
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/Projeto-Android/">
                             <div class="botao_projeto">
                                 <img src="../../Assets/img/projetoAndroid.png" alt="projeto android" class="projetos">
                                 <p>Projeto Android</p>
                             </div>
                         </button>
-                        <button class="btnProjeto" id="btnProjetoPokedex" data-src="https://profissional-marcelo.github.io/projeto-starbucks/">
+                        <button class="btnProjeto" data-src="https://profissional-marcelo.github.io/projeto-starbucks/">
                             <img src="../../Assets/img/projetoStarbucks.png" alt="projeto Starbucks" class="projetos">
                             <p>Projeto Starbucks</p>
                         </button>
